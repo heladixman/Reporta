@@ -1,0 +1,1305 @@
+CRITICAL - 2022-12-28 16:46:07 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-28 16:50:10 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-28 09:50:23 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\reporta\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get('pembayaranID')
+ 2 APPPATH\Controllers\Pembayaran.php(24): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 09:50:53 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\reporta\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get('pembayaranID')
+ 2 APPPATH\Controllers\Pembayaran.php(24): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 15:57:03 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:00:44 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:00:55 --> mysqli_sql_exception: Not unique table/alias: 'datapembayaran' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:00:55 --> Not unique table/alias: 'datapembayaran'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `datapembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `datapembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `datapembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `datapembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = :idPembayaran:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:01:00 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:01:18 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:07:15 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:07:23 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:07:29 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:07:35 --> Array to string conversion
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 APPPATH\Views\Pages\VPembayaran.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Pages\\VPembayaran.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:10:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:10:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:10:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:10:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:10:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:10:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:10:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:11:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:11:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:11:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:11:17 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:17:01 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:17:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:17:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:17:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:17:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:17:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:17:50 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:18:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:18:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(*)
+FROM `datapembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:18:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:18:45 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:23 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:30 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:19:35 --> Undefined variable $dataPembayaran
+in APPPATH\Views\PagesPart\Modals\ModalPembayaran.php on line 149.
+ 1 APPPATH\Views\PagesPart\Modals\ModalPembayaran.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataPembayaran', 'APPPATH\\Views\\PagesPart\\Modals\\ModalPembayaran.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Modals\\ModalPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Modals/ModalPembayaran.php', [], true)
+ 5 APPPATH\Views\Pages\VPembayaran.php(79): view('PagesPart/Modals/ModalPembayaran.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+13 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+17 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:21:27 --> Undefined array key "metodePembayaranName"
+in APPPATH\Views\Pages\VPembayaran.php on line 55.
+ 1 APPPATH\Views\Pages\VPembayaran.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "metodePembayaranName"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:22:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:22:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(*)
+FROM `pembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(*)
+FROM `pembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(*)
+FROM `pembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(*)
+FROM `pembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:23:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 16:23:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(*)
+FROM `pembayaran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(*)
+FROM `pembayaran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(*)
+FROM `pembayaran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(*)
+FROM `pembayaran`', [], false)
+ 5 APPPATH\Models\MPembayaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:23:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:23:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:23:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Pembayaran.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:24:08 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:24:23 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:24:31 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\Pages\VPembayaran.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 4 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 8 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+12 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:25:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row_array()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:26:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row_array()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:26:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'pembayaran' at line 1 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('pembayaran', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('pembayaran')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('pembayaran')
+#3 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(27): CodeIgniter\Database\BaseConnection->query('pembayaran')
+#4 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+#5 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 16:26:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'pembayaran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('pembayaran', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('pembayaran')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('pembayaran')
+ 4 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Database\BaseConnection->query('pembayaran')
+ 5 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 16:27:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('(SELECT COUNT(*...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('(SELECT COUNT(*...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('(SELECT COUNT(*...')
+#3 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(27): CodeIgniter\Database\BaseConnection->query('(SELECT COUNT(*...')
+#4 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+#5 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 16:27:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('(SELECT COUNT(*)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('(SELECT COUNT(*)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('(SELECT COUNT(*)')
+ 4 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Database\BaseConnection->query('(SELECT COUNT(*)')
+ 5 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:28:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:28:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\MPembayaran.php on line 28.
+ 1 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:32:46 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\MPembayaran.php on line 27.
+ 1 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'APPPATH\\Models\\MPembayaran.php', 27)
+ 2 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:33:54 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\MPembayaran.php on line 27.
+ 1 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'APPPATH\\Models\\MPembayaran.php', 27)
+ 2 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:34:28 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\MPembayaran.php on line 27.
+ 1 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'APPPATH\\Models\\MPembayaran.php', 27)
+ 2 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:34:53 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\MPembayaran.php on line 27.
+ 1 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'APPPATH\\Models\\MPembayaran.php', 27)
+ 2 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:36:08 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\MPembayaran.php on line 27.
+ 1 APPPATH\Models\MPembayaran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'APPPATH\\Models\\MPembayaran.php', 27)
+ 2 APPPATH\Controllers\Pembayaran.php(34): App\Models\MPembayaran->getTotalDataPembayaran()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:46:07 --> Undefined variable $dataPembayaran
+in APPPATH\Views\PagesPart\Modals\ModalPembayaran.php on line 149.
+ 1 APPPATH\Views\PagesPart\Modals\ModalPembayaran.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataPembayaran', 'APPPATH\\Views\\PagesPart\\Modals\\ModalPembayaran.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Modals\\ModalPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Modals/ModalPembayaran.php', [], true)
+ 5 APPPATH\Views\Pages\VPembayaran.php(79): view('PagesPart/Modals/ModalPembayaran.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+13 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+14 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+15 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+17 APPPATH\Controllers\Pembayaran.php(40): view('pagesPart/components/index', [...])
+18 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+19 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+20 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 17:45:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MPembayaran.php on line 12.
+ 1 APPPATH\Controllers\Pembayaran.php(28): App\Models\MPembayaran->getPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 17:47:33 --> mysqli_sql_exception: Unknown column 'idAkunPerkiraan' in 'field list' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\reporta\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-28 17:47:33 --> Unknown column 'idAkunPerkiraan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT(idAkunPerkiraan) AS total_item
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT(idAkunPerkiraan) AS total_item
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT(idAkunPerkiraan) AS total_item
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT(idAkunPerkiraan) AS total_item
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:05:43 --> Undefined array key "pembayaran.noCek"
+in APPPATH\Views\Pages\VPembayaran.php on line 57.
+ 1 APPPATH\Views\Pages\VPembayaran.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaran.noCek"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:06:55 --> mysqli_sql_exception: Not unique table/alias: 'pembayaran' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-28 18:06:55 --> Not unique table/alias: 'pembayaran'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:07:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MPembayaran.php on line 12.
+ 1 APPPATH\Controllers\Pembayaran.php(28): App\Models\MPembayaran->getPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:07:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MPembayaran.php on line 12.
+ 1 APPPATH\Controllers\Pembayaran.php(28): App\Models\MPembayaran->getPembayaran()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:07:19 --> mysqli_sql_exception: Not unique table/alias: 'pembayaran' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-28 18:07:19 --> Not unique table/alias: 'pembayaran'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM (`pembayaran`, `pembayaran`)
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:07:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idM...' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\reporta\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-28 18:07:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idM...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT(idPembayaran) FROM pembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT(idPembayaran) FROM pembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT(idPembayaran) FROM pembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT(idPembayaran) FROM pembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:07:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idM...' at line 2 in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\reporta\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-28 18:07:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idM...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, COUNT(idPembayaran) FROM datapembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT(idPembayaran) FROM datapembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT(idPembayaran) FROM datapembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT(idPembayaran) FROM datapembayaran AS item_total
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `datapembayaran` ON `PembayaranID` = `idPembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:08:37 --> Undefined array key "item_total"
+in APPPATH\Views\Pages\VPembayaran.php on line 56.
+ 1 APPPATH\Views\Pages\VPembayaran.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_total"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:12:26 --> mysqli_sql_exception: Unknown column 'idAkunPerkiraan' in 'on clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-28 18:12:26 --> Unknown column 'idAkunPerkiraan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:14:59 --> mysqli_sql_exception: Not unique table/alias: 'pembayaran' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-28 18:14:59 --> Not unique table/alias: 'pembayaran'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `pembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `pembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `pembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `pembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:16:11 --> Undefined array key "biaya"
+in APPPATH\Views\Pages\VPembayaran.php on line 58.
+ 1 APPPATH\Views\Pages\VPembayaran.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "biaya"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 18:16:34 --> mysqli_sql_exception: Unknown column 'idAkunPerkiraan' in 'on clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-28 18:16:34 --> Unknown column 'idAkunPerkiraan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pembayaran`
+LEFT JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Pembayaran.php(28): CodeIgniter\BaseModel->paginate(10, 'pembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:17:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Pembayaran.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 18:18:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Pembayaran.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

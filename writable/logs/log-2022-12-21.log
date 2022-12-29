@@ -1,0 +1,1273 @@
+CRITICAL - 2022-12-21 21:08:18 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:14 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:50 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:51 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:51 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:51 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:52 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:52 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:52 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:52 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:09:56 --> Invalid file: pagesPart/components/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/components/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+ 3 APPPATH\Controllers\CHome.php(15): view('pagesPart/components/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:16:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:16:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:16:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:16:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:17:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:17:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:17:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:17:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:17:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 21:17:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\app\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 21:17:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `metodepembayaran`', [], false)
+ 3 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\CMetodePembayaran.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:19:56 --> Invalid file: pages/metodePembayaran.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/metodePembayaran.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/metodePembayaran', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('pages/metodePembayaran')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\CMetodePembayaran.php(31): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:20:25 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('metodepembayaran', 'my_pager')
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(75): CodeIgniter\Pager\Pager->links('metodepembayaran', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('pagesPart/components/index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:20:51 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('metodepembayaran', 'my_pager')
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(75): CodeIgniter\Pager\Pager->links('metodepembayaran', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('PagesPart/Components/Index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:20:58 --> Invalid file: pages/tipeAkun.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tipeAkun.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/tipeAkun', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('pages/tipeAkun')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\CTipeAkun.php(31): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CTipeAkun->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTipeAkun))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:21:00 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('metodepembayaran', 'my_pager')
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(75): CodeIgniter\Pager\Pager->links('metodepembayaran', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('PagesPart/Components/Index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:21:03 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('metodepembayaran', 'my_pager')
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(75): CodeIgniter\Pager\Pager->links('metodepembayaran', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('PagesPart/Components/Index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:21:59 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('metodepembayaran', 'my_pager')
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(75): CodeIgniter\Pager\Pager->links('metodepembayaran', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('PagesPart/Components/Index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:23:19 --> Invalid file: pagesPart/modals/metodePembayaran.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesPart/modals/metodePembayaran.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/modals/metodePembayaran.php', [], true)
+ 3 APPPATH\Views\Pages\VMetodePembayaran.php(81): view('pagesPart/modals/metodePembayaran.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VMetodePembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VMetodePembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VMetodePembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Index', [], true)
+15 APPPATH\Controllers\CMetodePembayaran.php(31): view('PagesPart/Components/Index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CMetodePembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMetodePembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:24:30 --> Invalid file: pages/tipeAkun.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tipeAkun.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/tipeAkun', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('pages/tipeAkun')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\CTipeAkun.php(31): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CTipeAkun->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTipeAkun))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:25:57 --> Invalid file: pages/Penerimaan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Penerimaan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Penerimaan', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('pages/Penerimaan')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\CPenerimaan.php(31): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CPenerimaan->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPenerimaan))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:26:01 --> Invalid file: pages/Penerimaan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Penerimaan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/Penerimaan', [], true)
+ 3 APPPATH\Views\PagesPart\Components\Content.php(3): view('pages/Penerimaan')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+11 APPPATH\Controllers\CPenerimaan.php(31): view('pagesPart/components/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CPenerimaan->index()
+13 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPenerimaan))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 21:26:41 --> my_pager is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('my_pager')
+ 2 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('tipeakun', 'my_pager')
+ 3 APPPATH\Views\Pages\VTipeAkun.php(69): CodeIgniter\Pager\Pager->links('tipeakun', 'my_pager')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VTipeAkun.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VTipeAkun', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VTipeAkun')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+15 APPPATH\Controllers\CTipeAkun.php(31): view('pagesPart/components/index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CTipeAkun->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CTipeAkun))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 22:11:25 --> Class "App\Controllers\CI_Controller" not found
+in APPPATH\Controllers\CMetodePembayaran.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CMetodePembayaran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CMetodePembayaran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CMetodePembayaran')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CMetodePembayaran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 22:12:07 --> Class "App\Controllers\CI_Controller" not found
+in APPPATH\Controllers\CMetodePembayaran.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CMetodePembayaran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CMetodePembayaran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CMetodePembayaran')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\CMetodePembayaran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:24:01 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:24:01 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:24:46 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:24:46 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%1%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%1%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%1%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%1%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:27:08 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:27:08 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%13%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%13%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%13%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%13%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%13%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE :namaTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:27:14 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:27:14 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE :namaTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:29:18 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:29:18 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE :namaTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:29:27 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:29:27 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%aset%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%aset%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE :namaTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:36:10 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:36:10 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `idTipeAkun` LIKE :idTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:36:40 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:36:40 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `idTipeAkun` LIKE :idTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 22:37:41 --> mysqli_sql_exception: Not unique table/alias: 'tipeakun' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayara...')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 22:37:41 --> Not unique table/alias: 'tipeakun'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `idTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `saldoAwal` LIKE \'%2201%\' ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE \'%2201%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `akunperkiraan`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+LEFT JOIN `tipeakun` ON `tipeAkunID` = `idTipeAkun`
+WHERE `kodeAkunPerkiraan` LIKE :kodeAkunPerkiraan: ESCAPE \'!\'
+OR  `idTipeAkun` LIKE :idTipeAkun: ESCAPE \'!\'
+OR  `namaTipeAkun` LIKE :namaTipeAkun: ESCAPE \'!\'
+OR  `namaAkunPerkiraan` LIKE :namaAkunPerkiraan: ESCAPE \'!\'
+OR  `saldoAwal` LIKE :saldoAwal: ESCAPE \'!\'
+OR  `catatanAkunPerkiraan` LIKE :catatanAkunPerkiraan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\AkunPerkiraan.php(23): CodeIgniter\BaseModel->paginate(10, 'metodepembayaran')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AkunPerkiraan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunPerkiraan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:27:27 --> syntax error, unexpected token "endforeach"
+in APPPATH\Views\PagesPart\Modals\ModalPembayaran.php on line 151.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Modals/ModalPembayaran.php', [], true)
+ 3 APPPATH\Views\Pages\VPembayaran.php(79): view('PagesPart/Modals/ModalPembayaran.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 7 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+11 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+12 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+13 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+15 APPPATH\Controllers\Pembayaran.php(39): view('pagesPart/components/index', [...])
+16 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+17 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+18 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:28:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MPembayaran.php on line 21.
+ 1 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('29')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:28:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\MPembayaran.php on line 21.
+ 1 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('29')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:28:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::find()
+in APPPATH\Models\MPembayaran.php on line 21.
+ 1 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('29')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-21 23:32:30 --> mysqli_sql_exception: Subquery returns more than 1 row in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran(Object(CodeIgniter\Database\MySQLi\Builder))
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-21 23:32:30 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `pembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = (SELECT `pembayaranID` FROM `pembayaran`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `pembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = (SELECT `pembayaranID` FROM `pembayaran`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `pembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = (SELECT `pembayaranID` FROM `pembayaran`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT COUNT(idPembayaran) FROM datapembayaran)
+FROM `pembayaran`
+LEFT JOIN `datapembayaran` ON `idPembayaran` = `pembayaranID`
+WHERE `idPembayaran` = (SELECT `pembayaranID` FROM `pembayaran`)', [], false)
+ 5 APPPATH\Models\MPembayaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran(Object(CodeIgniter\Database\MySQLi\Builder))
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:32:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MPembayaran.php on line 21.
+ 1 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('29')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:37:23 --> Call to undefined function App\Models\get()
+in APPPATH\Models\MPembayaran.php on line 21.
+ 1 APPPATH\Controllers\Pembayaran.php(32): App\Models\MPembayaran->getDataPembayaran('29')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:38:03 --> Undefined property: App\Controllers\Pembayaran::$db
+in APPPATH\Controllers\Pembayaran.php on line 24.
+ 1 APPPATH\Controllers\Pembayaran.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pembayaran::$db', 'APPPATH\\Controllers\\Pembayaran.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 23:38:22 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\reporta\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get('pembayaranID')
+ 2 APPPATH\Controllers\Pembayaran.php(24): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
