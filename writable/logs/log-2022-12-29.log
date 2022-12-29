@@ -1,0 +1,713 @@
+CRITICAL - 2022-12-29 04:09:03 --> Undefined array key "datapembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 65.
+ 1 APPPATH\Views\Pages\VPembayaran.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datapembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:10:24 --> Undefined array key "namaAkunPerkiraan"
+in APPPATH\Views\Pages\VPembayaran.php on line 58.
+ 1 APPPATH\Views\Pages\VPembayaran.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaAkunPerkiraan"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Pembayaran.php(41): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:14:52 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`)) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:14:52 --> Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = :PembayaranID:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:19:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`)) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:19:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = :PembayaranID:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:20:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`)) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:20:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = :PembayaranID:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:22:01 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`)) in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:22:01 --> Cannot delete or update a parent row: a foreign key constraint fails (`reporta`.`datapembayaran`, CONSTRAINT `datapembayaran_idPembayaran_foreign` FOREIGN KEY (`idPembayaran`) REFERENCES `pembayaran` (`pembayaranID`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pembayaran`
+WHERE `PembayaranID` = :PembayaranID:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('3')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:50:29 --> mysqli_sql_exception: Unknown column 'metodePembayaranName' in 'field list' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `pembaya...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pembaya...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pembaya...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `pembaya...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(49): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(92): App\Models\MPembayaran->updatePembayaran(Array, NULL)
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->updatePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:50:29 --> Unknown column 'metodePembayaranName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `pembayaran` SET `metodePembayaranName` = NULL, `metodePembayaranOwner` = NULL, `noRek` = NULL, `saldoAwal` = (\'10000\',\'10\'), `perTanggal` = NULL
+WHERE `PembayaranID` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pembayaran` SET `metodePembayaranName` = NULL, `metodePembayaranOwner` = NULL, `noRek` = NULL, `saldoAwal` = (\'10000\',\'10\'), `perTanggal` = NULL
+WHERE `PembayaranID` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pembayaran` SET `metodePembayaranName` = NULL, `metodePembayaranOwner` = NULL, `noRek` = NULL, `saldoAwal` = (\'10000\',\'10\'), `perTanggal` = NULL
+WHERE `PembayaranID` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `pembayaran` SET `metodePembayaranName` = :metodePembayaranName:, `metodePembayaranOwner` = :metodePembayaranOwner:, `noRek` = :noRek:, `saldoAwal` = :saldoAwal:, `perTanggal` = :perTanggal:
+WHERE `PembayaranID` IS NULL', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(49): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Pembayaran.php(92): App\Models\MPembayaran->updatePembayaran([...], null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->updatePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:52:52 --> mysqli_sql_exception: Unknown column 'dataPembayaranID' in 'where clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\reporta\app\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\reporta\app\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('11')
+#6 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-29 04:52:52 --> Unknown column 'dataPembayaranID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pembayaran`
+WHERE `dataPembayaranID` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pembayaran`
+WHERE `dataPembayaranID` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pembayaran`
+WHERE `dataPembayaranID` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pembayaran`
+WHERE `dataPembayaranID` = :dataPembayaranID:', [...], false)
+ 5 APPPATH\Models\MPembayaran.php(54): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Pembayaran.php(104): App\Models\MPembayaran->deletePembayaran('11')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembayaran->deletePembayaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:00:04 --> Undefined variable $Pembayaran
+in APPPATH\Views\Pages\VPenerimaan.php on line 51.
+ 1 APPPATH\Views\Pages\VPenerimaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Pembayaran', 'APPPATH\\Views\\Pages\\VPenerimaan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPenerimaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPenerimaan', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPenerimaan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(31): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:00:39 --> Undefined variable $Penerimaan
+in APPPATH\Views\Pages\VPenerimaan.php on line 51.
+ 1 APPPATH\Views\Pages\VPenerimaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Penerimaan', 'APPPATH\\Views\\Pages\\VPenerimaan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPenerimaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPenerimaan', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPenerimaan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(31): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:00:57 --> Undefined property: App\Controllers\Penerimaan::$Pembayaran
+in APPPATH\Controllers\Penerimaan.php on line 19.
+ 1 APPPATH\Controllers\Penerimaan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Penerimaan::$Pembayaran', 'APPPATH\\Controllers\\Penerimaan.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:16 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:40 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:42 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:42 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:42 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:01:42 --> Call to undefined method App\Models\MPenerimaan::getPembayaran
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\Model->__call('getPembayaran', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 05:01:54 --> mysqli_sql_exception: Unknown column 'pembayaranID' in 'on clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-29 05:01:54 --> Unknown column 'pembayaranID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 05:42:58 --> mysqli_sql_exception: Unknown column 'pembayaranID' in 'on clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-29 05:42:58 --> Unknown column 'pembayaranID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapembayaran` ON `pembayaranID` = `idPembayaran`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 05:43:36 --> mysqli_sql_exception: Unknown column 'idPenerimaan' in 'on clause' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\reporta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\reporta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\reporta\app\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+#7 C:\xampp\htdocs\reporta\system\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+#8 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+#9 C:\xampp\htdocs\reporta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\reporta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-29 05:43:36 --> Unknown column 'idPenerimaan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapenerimaan` ON `penerimaanID` = `idPenerimaan`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapenerimaan` ON `penerimaanID` = `idPenerimaan`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapenerimaan` ON `penerimaanID` = `idPenerimaan`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `penerimaan`
+JOIN `metodepembayaran` ON `metodePembayaranID` = `idMetodePembayaran`
+RIGHT JOIN `datapenerimaan` ON `penerimaanID` = `idPenerimaan`
+LEFT JOIN `akunperkiraan` ON `idAkunPerkiraan` = `akunPerkiraanID`', [], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Penerimaan.php(26): CodeIgniter\BaseModel->paginate(10, 'penerimaan')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 05:45:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reporta' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'reporta', 3306, '', 0)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\reporta\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\reporta\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\reporta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\reporta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\reporta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\reporta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\reporta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\reporta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\reporta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\reporta\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reporta' in C:\xampp\htdocs\reporta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\reporta\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\reporta\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\reporta\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\reporta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\reporta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\reporta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\reporta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\xampp\htdocs\reporta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\xampp\htdocs\reporta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\xampp\htdocs\reporta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\reporta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\reporta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-12-29 05:50:15 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:50:35 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:50:40 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:51:00 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:51:35 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:06 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:20 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:26 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:29 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:36 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:52:39 --> Undefined array key "pembayaranID"
+in APPPATH\Views\Pages\VPembayaran.php on line 62.
+ 1 APPPATH\Views\Pages\VPembayaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pembayaranID"', 'APPPATH\\Views\\Pages\\VPembayaran.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPembayaran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPembayaran', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPembayaran')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:53:13 --> Undefined variable $Penerimaan
+in APPPATH\Views\Pages\VPenerimaan.php on line 51.
+ 1 APPPATH\Views\Pages\VPenerimaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Penerimaan', 'APPPATH\\Views\\Pages\\VPenerimaan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPenerimaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPenerimaan', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPenerimaan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 05:53:21 --> Undefined array key "dataPembayaranID"
+in APPPATH\Views\Pages\VPenerimaan.php on line 65.
+ 1 APPPATH\Views\Pages\VPenerimaan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dataPembayaranID"', 'APPPATH\\Views\\Pages\\VPenerimaan.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Pages\\VPenerimaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Pages/VPenerimaan', [], true)
+ 5 APPPATH\Views\PagesPart\Components\Content.php(3): view('Pages/VPenerimaan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('PagesPart/Components/Content', [], true)
+ 9 APPPATH\Views\PagesPart\Components\Index.php(6): view('PagesPart/Components/Content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\PagesPart\\Components\\Index.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesPart/components/index', [], true)
+13 APPPATH\Controllers\Penerimaan.php(39): view('pagesPart/components/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penerimaan->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaan))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

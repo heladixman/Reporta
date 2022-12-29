@@ -1,10 +1,10 @@
 <!-- New Pembayaran Modal -->
-<div class="modal fade" id="ModalNewPembayaran" tabindex="-1" role="dialog" aria-labelledby="Modal Tambah" aria-hidden="true">
+<div class="modal fade" id="ModalNewPenerimaan" tabindex="-1" role="dialog" aria-labelledby="Modal Tambah" aria-hidden="true">
   <form action="<?= base_url()?>/pembayaran/newPembayaran" method="post">
     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
       <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel1">Tambah Pembayaran Baru</h5>
+            <h5 class="modal-title" id="exampleModalLabel1">Tambah Penerimaan Baru</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -43,7 +43,7 @@
               <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                   <div class="d-flex justify-content-between mb-2">
-                    <span class="align-self-center mb-0">Data Pembayaran</span>
+                    <span class="align-self-center mb-0">Data Penerimaan</span>
                     <button type="button" class='btn btn-icon btn-success px-2 w-25 newInput'>Tambah</button>
                   </div>
                   <div class="inputPembayaran">
@@ -83,7 +83,7 @@
 </div>
 
 <!-- Delete Pembayaran Modal-->
-<div class="modal fade" id="ModalDeletePembayaran" tabindex="-1" role="dialog" aria-labelledby="Modal Delete" aria-hidden="false">
+<div class="modal fade" id="ModalDeletePenerimaan" tabindex="-1" role="dialog" aria-labelledby="Modal Delete" aria-hidden="false">
   <form action="<?= base_url()?>/pembayaran/deletePembayaran" method="post">
     <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -102,7 +102,7 @@
 </div>
 
 <!-- Update Pembayaran Modal -->
-<div class="modal fade" id="ModalUpdatePembayaran" tabindex="-1" role="dialog" aria-labelledby="Modal Tambah" aria-hidden="true">
+<div class="modal fade" id="ModalUpdatePenerimaan" tabindex="-1" role="dialog" aria-labelledby="Modal Tambah" aria-hidden="true">
   <form action="<?= base_url()?>/pembayaran/updatePembayaran" method="post">
     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
       <div class="modal-content">

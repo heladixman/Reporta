@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\MPenerimaan;
+use App\Models\MDataPenerimaan;
 
 class Penerimaan extends BaseController
 {
@@ -14,14 +15,22 @@ class Penerimaan extends BaseController
     {
         $keyword= $this->request->getPost('keyword');
         if($keyword){
-            $model =  $this->Penerimaan->searchDataPenerimaan($keyword);
+            $model =  $this->Penerimaan->searchDataPembayaran($keyword);
         }else{
             $model =  $this->Penerimaan;
         };
 
+        // $idPem = $idPem = $this->Pembayaran->get('pembayaranID');
+        $idPem = '1';
+
         $data = [
-            'metodePenerimaan'  => $model->getPenerimaan()->paginate(10, 'Penerimaan'),
+            'Penerimaan'        => $model->getPenerimaan()->paginate(10, 'penerimaan'),
             'pager'             => $model->pager,
+            'metodePembayaran'  => $model->getMetodePembayaran()->getResult(),
+            'akunPerkiraan'     => $model->getAkunPerkiraan()->getResult(),
+            'dataPembayaran'    => $model->getDataPembayaran($idPem)->getResult(),
+            'totalItem'         => $model->getTotalDataPembayaran(),
+            'totalBiaya'        => "total Item",
             'breadcrumbs'       => "Penerimaan",
             'title'             => "Penerimaan | Reporta",
             'addNewButton'      => "Tambah Penerimaan",
@@ -31,51 +40,69 @@ class Penerimaan extends BaseController
         return view('pagesPart/components/index', $data);
     }
 
-    public function newPenerimaan(){
-        $session    = session();
-        $model      = new MPenerimaan();
+    public function newPembayaran(){
+        $session               = session();
+        $modelPembayaran       = new MPenerimaan();
+        $modelDataPembayaran   = new MDataPembayaran();
         
         $data = [
-            'metodePenerimaanName'      => $this->request->getPost('metodePenerimaanName'),
-            'metodePenerimaanOwner'     => $this->request->getPost('metodePenerimaanOwner'),
-            'noRek'                     => $this->request->getPost('noRek'),
-            'saldoAwal'                 => $this->request->getPost('saldoAwal'),
-            'perTanggal'                => $this->request->getPost('perTanggal')
+            'idMetodePembayaran'        => $this->request->getPost('idMetodePembayaran'),
+            'noCek'                     => $this->request->getPost('noCek'),
+            'noBukti'                   => $this->request->getPost('noBukti'),
+            'tanggalBayar'              => $this->request->getPost('tanggalBayar'),
+            'catatanPembayaran'         => $this->request->getPost('catatanPembayaran'),
+            'penerima'                  => $this->request->getPost('penerima')
         ];
 
-        $saveNewPenerimaan = $model->newPenerimaan($data);
-        session()->setFlashData('message', 'Metode Penerimaan berhasil ditambahkan');
-        return redirect()->to(base_url(). '/metodePenerimaan');
+        $saveNewPembayaran = $modelPembayaran->newPembayaran($data);
+
+        $idPembayaran  = $modelPembayaran->insertID();
+        $akunPerkiraan = $this->request->getVar('idAkunPerkiraan');
+        $saldoAwal = $this->request->getVar('saldoAwal');
+        $catatan = $this->request->getVar('catatan');
+
+        for($i = 0; $i < count((array)$akunPerkiraan); $i++){
+            $data2[] = [
+                'idPembayaran' => $idPembayaran,
+                'idAkunPerkiraan' => $akunPerkiraan[$i],
+                'biaya' => $saldoAwal[$i],
+                'catatan' => $catatan[$i]
+            ];
+        }
+
+        $saveNewDataPembayaran = $modelDataPembayaran->insertBatch($data2);
+        session()->setFlashData('message', 'Pembayaran berhasil ditambahkan');
+        return redirect()->to(base_url(). '/pembayaran');
     }
 
-    public function updatePenerimaan(){
+    public function updatePembayaran(){
         $session = session();
-        $model = new MPenerimaan();
-        $id = $this->request->getPost('PenerimaanID');
+        $model = new MPembayaran();
+        $id = $this->request->getPost('PembayaranID');
 
         $data = array(
-            'metodePenerimaanName'      => $this->request->getPost('metodePenerimaanName'),
-            'metodePenerimaanOwner'     => $this->request->getPost('metodePenerimaanOwner'),
+            'metodePembayaranName'      => $this->request->getPost('metodePembayaranName'),
+            'metodePembayaranOwner'     => $this->request->getPost('metodePembayaranOwner'),
             'noRek'                     => $this->request->getPost('noRek'),
             'saldoAwal'                 => $this->request->getPost('saldoAwal'),
             'perTanggal'                => $this->request->getPost('perTanggal')
         );
 
-        $updatePenerimaan = $model->updatePenerimaan($data, $id);
+        $updatePembayaran = $model->updatePembayaran($data, $id);
 
-        session()->setFlashData('message', 'Metode Penerimaan berhasil diperbarui');
-        return redirect()->to(base_url(). '/metodePenerimaan');
+        session()->setFlashData('message', 'Pembayaran berhasil diperbarui');
+        return redirect()->to(base_url(). '/pembayaran');
 
     }
 
-    public function deletePenerimaan(){
+    public function deletePembayaran(){
         $session = session();
-        $model = new MPenerimaan();
-        $id = $this->request->getPost('metodePenerimaanID');
+        $model = new MPembayaran();
+        $id = $this->request->getPost('akunPerkiraanID');
         
-        $removePenerimaan = $model->deletePenerimaan($id);
+        $removePembayaran = $model->deletePembayaran($id);
 
-        session()->setFlashData('message', 'Metode Penerimaan berhasil dihapus');
-        return redirect()->to(base_url(). '/metodePenerimaan');
+        session()->setFlashData('message', 'Pembayaran berhasil dihapus');
+        return redirect()->to(base_url(). '/pembayaran');
     }
 }

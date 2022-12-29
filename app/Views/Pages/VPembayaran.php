@@ -39,7 +39,7 @@
                       <th>Metode Pembayaran</th>
                       <th>No. Rek</th>
                       <th>No. Bukti</th>
-                      <th>Item Total</th>
+                      <th>Akun Perkiraan</th>
                       <th>Biaya Total</th>
                       <th>Tanggal Bayar</th>
                       <th>Actions</th>
@@ -55,14 +55,14 @@
                         <td><?= $data['metodePembayaranName'] ?></td>
                         <td><?= $data['noCek'] ?></td>
                         <td><?= $data['noBukti'] ?></td>
-                        <td><?= $totalItem ?> Item</td>
-                        <td><?= $totalBiaya ?></td>
+                        <td><?= $data['namaAkunPerkiraan'] ?></td>
+                        <td><?= $data['biaya'] ?></td>
                         <td><?= $data['tanggalBayar'] ?></td>
                         <td>
-                              <button type="button" class='btn btn-icon btn-success editPembayaran' id="editPembayaran" data-id="<?= $data['metodePembayaranID']?>" data-idpem="<?= $data['pembayaranID']?>" data-bukti="<?=$data['noBukti']?>" data-cek="<?=$data['noCek']?>" data-tanggal="<?=$data['tanggalBayar']?>" data-catatan="<?=$data['catatanPembayaran']?>" data-penerima="<?=$data['penerima']?>">
+                              <button type="button" class='btn btn-icon btn-success editPembayaran' id="editPembayaran" data-id="<?= $data['pembayaranID']?>" data-idpem="<?= $data['pembayaranID']?>" data-bukti="<?=$data['noBukti']?>" data-cek="<?=$data['noCek']?>" data-tanggal="<?=$data['tanggalBayar']?>" data-catatan="<?=$data['catatanPembayaran']?>" data-cabat="<?=$data['catatan']?>" data-penerima="<?=$data['penerima']?>">
                                 <i class="bx bx-edit-alt"></i>
                               </button>
-                              <button type="button" class="btn btn-icon btn-outline-danger hapusPembayaran" data-bs-toggle="modal" data-bs-target="#ModalDeletePembayaran" data-id="<?= $data['metodePembayaranID']?>">
+                              <button type="button" class="btn btn-icon btn-outline-danger hapusPembayaran" data-bs-toggle="modal" data-bs-target="#ModalDeletePembayaran" data-id="<?= $data['dataPembayaranID']?>">
                                 <i class="bx bx-trash"></i>
                               </button>
                         </td>                             

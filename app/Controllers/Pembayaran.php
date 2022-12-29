@@ -99,7 +99,7 @@ class Pembayaran extends BaseController
     public function deletePembayaran(){
         $session = session();
         $model = new MPembayaran();
-        $id = $this->request->getPost('metodePembayaranID');
+        $id = $this->request->getPost('akunPerkiraanID');
         
         $removePembayaran = $model->deletePembayaran($id);
 

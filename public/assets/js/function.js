@@ -14,6 +14,13 @@ $(document).ready(function(){
       $('#ModalDeleteMetodePembayaran').modal('show');
     });
 
+    $('.hapusPembayaran').on('click', function(){
+      const id = $(this).data('id');
+      console.log(id)
+      $('.akunPerkiraanID').val(id);
+      $('#ModalDeletePembayaran').modal('show');
+    });
+
     $('.hapusTipeAkun').on('click', function(){
       const setID = $(this).data('id');
       console.log(setID)
@@ -58,10 +65,11 @@ $(document).ready(function(){
       const VPidPem = $(this).data('idpem');
       const VPBukti = $(this).data('bukti');
       const VPCek = $(this).data('cek');
+      const VPCabat = $(this).data('cabat');
       const VPTanggal = $(this).data('tanggal');
       const VPCatatan = $(this).data('catatan');
       const VPPenerima = $(this).data('penerima');
-      console.log(VPidPem, VPid, VPBukti, VPCek, VPTanggal, VPCatatan, VPPenerima)
+      console.log(VPidPem, VPid, VPBukti, VPCek, VPCabat, VPTanggal, VPCatatan, VPPenerima)
       $('.idMetodePembayaran').val(VPid);
       $('.idCekPembayaran').val(VPidPem);
       $('.noCek').val(VPCek);

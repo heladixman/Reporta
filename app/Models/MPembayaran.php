@@ -11,8 +11,8 @@ class MPembayaran extends Model
         if ($id === false){
             $query = $this->table('pembayaran')->select('*');
             $query->join('metodepembayaran', 'metodePembayaranID = idMetodePembayaran');
-            // $query->join('datapembayaran', 'pembayaranID = idPembayaran', 'right');
-            // $query->join('akunperkiraan', 'idAkunPerkiraan = akunPerkiraanID', 'left');
+            $query->join('datapembayaran', 'pembayaranID = idPembayaran', 'right');
+            $query->join('akunperkiraan', 'idAkunPerkiraan = akunPerkiraanID', 'left');
             return $query;
         }else{
             return $this->table('pembayaran')->where('PembayaranID',$id)->get()->getRowArray();
@@ -51,7 +51,7 @@ class MPembayaran extends Model
     }
 
     public function deletePembayaran($id){
-        $query = $this->db->table('pembayaran')->delete(array('PembayaranID' => $id));
+        $query = $this->db->table('datapembayaran')->delete(array('dataPembayaranID' => $id));
         return $query;
     }
     

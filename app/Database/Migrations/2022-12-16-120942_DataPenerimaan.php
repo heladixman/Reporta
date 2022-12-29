@@ -13,7 +13,7 @@ class DataPenerimaan extends Migration
                 'type' => 'INT',
                 'auto_increment' => true
             ],
-            'idPembayaran' =>[
+            'idPenerimaan' =>[
                 'type' => 'INT',
             ],
             'idAkunPerkiraan' => [
@@ -31,7 +31,7 @@ class DataPenerimaan extends Migration
             'updateAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP',
         ]);
         $this->forge->addKey('dataPenerimaanID',TRUE);
-        $this->forge->addForeignKey('idPembayaran', 'pembayaran', 'pembayaranID');
+        $this->forge->addForeignKey('idPenerimaan', 'penerimaan', 'penerimaanID');
         $this->forge->addForeignKey('idAkunPerkiraan', 'akunperkiraan', 'akunPerkiraanID');
         $this->forge->createTable('datapenerimaan', TRUE);
     }

@@ -31,7 +31,7 @@ class DataPembayaran extends Migration
             'updateAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP',
         ]);
         $this->forge->addKey('dataPembayaranID',TRUE);
-        $this->forge->addForeignKey('idPembayaran', 'pembayaran', 'pembayaranID');  
+        $this->forge->addForeignKey('idPembayaran', 'pembayaran', 'pembayaranID', 'CASCADE', 'CASCADE');  
         $this->forge->addForeignKey('idAkunPerkiraan', 'akunperkiraan', 'akunPerkiraanID');
         $this->forge->createTable('datapembayaran', TRUE);
     }
